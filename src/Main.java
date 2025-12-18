@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         Movie movie1 = new Movie(1, "Inception", "Sci-Fi", 148);
-        Movie movie2 = new Movie(2, "Titanic", "Drama", 195);
+        Movie movie2 = new Movie(2, "Harry Potter", "Drama", 195);
 
         Customer customer = new Customer(1, "Ainur", "ainur@mail.com");
 
