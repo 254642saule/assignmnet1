@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -15,13 +17,3 @@ public class Main {
         booking1.displayBookingInfo();
         System.out.println();
         booking2.displayBookingInfo();
-
-        if (movie1.getDuration() > movie2.getDuration()) {
-            System.out.println(movie1.getTitle() + " is longer");
-        } else {
-            System.out.println(movie2.getTitle() + " is longer");
-        }
-    }
-}
-
-
