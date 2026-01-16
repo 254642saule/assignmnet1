@@ -17,3 +17,12 @@ public class Main {
         booking1.displayBookingInfo();
         System.out.println();
         booking2.displayBookingInfo();
+        MovieDAO dao = new MovieDAO();
+
+        dao.saveMovie(movie1);
+
+        System.out.println("Movies from database:");
+        System.out.println(dao.getAllMovies());
+
+    }
+}

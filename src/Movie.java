@@ -1,19 +1,18 @@
 public class Movie {
-
-    private int movieId;
+    private int id;
     private String title;
     private String genre;
     private int duration;
 
-    public Movie(int movieId, String title, String genre, int duration) {
-        this.movieId = movieId;
+    public Movie(int id, String title, String genre, int duration) {
+        this.id = id;
         this.title = title;
         this.genre = genre;
         this.duration = duration;
     }
 
-    public int getMovieId() {
-        return movieId;
+    public int getId() {
+        return id;
     }
 
     public String getTitle() {
@@ -27,15 +26,4 @@ public class Movie {
     public int getDuration() {
         return duration;
     }
-
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "id=" + movieId +
-                ", title='" + title + '\'' +
-                ", genre='" + genre + '\'' +
-                ", duration=" + duration +
-                '}';
-    }
 }
-
